@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>User List</title>
+</head>
+<body>
+
+<h1>User List</h1>
+
+<table border="1">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Height</th>
+        <th>Weight</th>
+        <th>BMI</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="user : ${users}">
+        <td th:text="${user.name}"></td>
+        <td th:text="${user.height}"></td>
+        <td th:text="${user.weight}"></td>
+        <td th:text="${user.bmiValue}"></td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
