@@ -4,7 +4,7 @@
 ## Overview
 
 This Spring Boot application, developed using the Spring Initializer with Maven, utilizes MySQL as its database. 
-The purposes of this application 
+The purpose of this application 
 1. **Calculate BMI (Body Mass Index)** 
 2. **Provide Apple music data via https://itunes.apple.com**
 
@@ -59,4 +59,4 @@ Ensure that MySQL is properly configured and accessible before running the appli
 
 
 ## Production Deployment
-The production version of the application is deployed on Azure and publicly accessible at https://ds-web-application.azurewebsites.net/.
+The production version of the application is deployed on Azure and publicly accessible at https://bmiappgk.azurewebsites.net/
